@@ -9,5 +9,5 @@ export let modelValue: string
     p="x4 y2"
     bg="gray op20"
     border="~ rounded gray7 dark:gray2"
-    outline="none active:none">
+    outline-none>
 </template>

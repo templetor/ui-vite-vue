@@ -4,9 +4,10 @@ const title = useTitle()
 
 <template>
   <main
-    font-sans p4
-    flex="~ col justify-center items-center gap2"
-    text="center gray-700 dark:gray-200">
+    absolute ma inset-0
+    w-fit h-fit
+    grid="~ place-items-center"
+    text=" gray-700 dark:gray-200">
     <TheInput
       ::="title"
       placeholder="typing in title"
