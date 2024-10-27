@@ -1,10 +1,10 @@
 <script setup lang="ts">
-export let modelValue: string
+export let value: string
 </script>
 
 <template>
   <input
-    ::="modelValue" type="text"
+    ::="value" type="text"
     p="x4 y2"
     bg="gray op20"
     border="~ rounded gray7 dark:gray2"

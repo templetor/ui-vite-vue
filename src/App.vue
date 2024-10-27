@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const title = useTitle()
+const value = useTitle()
 </script>
 
 <template>
@@ -9,7 +9,7 @@ const title = useTitle()
     grid="~ place-items-center"
     text="gray-700 dark:gray-200"
   >
-    <TheInput v-model="title" placeholder="typing in title" />
+    <TheInput ::value placeholder="typing in title" />
     <TheNav />
   </main>
 </template>
