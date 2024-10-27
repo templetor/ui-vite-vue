@@ -4,14 +4,12 @@ const title = useTitle()
 
 <template>
   <main
-    absolute ma inset-0
     w-fit h-fit
+    absolute ma inset-0
     grid="~ place-items-center"
-    text=" gray-700 dark:gray-200">
-    <TheInput
-      ::="title"
-      placeholder="typing in title"
-      autocomplete="false" />
+    text="gray-700 dark:gray-200"
+  >
+    <TheInput v-model="title" placeholder="typing in title" />
     <TheNav />
   </main>
 </template>

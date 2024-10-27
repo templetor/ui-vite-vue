@@ -16,19 +16,12 @@ export default defineConfig({
   },
   plugins: [
     VueMacros({
-      defineProps: false,
-      defineModels: false,
       shortVmodel: {
         prefix: '::',
       },
       exportProps: true,
       plugins: {
-        vue: Vue({
-          script: {
-            propsDestructure: true,
-            defineModel: true,
-          },
-        }),
+        vue: Vue(),
       },
     }),
 

@@ -4,10 +4,10 @@ export let modelValue: string
 
 <template>
   <input
-    type="text"
-    ::="modelValue"
+    ::="modelValue" type="text"
     p="x4 y2"
     bg="gray op20"
     border="~ rounded gray7 dark:gray2"
-    outline-none>
+    outline-none
+  >
 </template>
