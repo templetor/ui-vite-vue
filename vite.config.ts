@@ -16,10 +16,6 @@ export default defineConfig({
   },
   plugins: [
     VueMacros({
-      shortBind: true,
-      shortVmodel: {
-        prefix: '::',
-      },
       exportProps: true,
       plugins: {
         vue: Vue(),

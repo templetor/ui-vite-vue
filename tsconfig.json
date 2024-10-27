@@ -1,9 +1,4 @@
 {
-  "vueCompilerOptions": {
-    "plugins": [
-      "unplugin-vue-macros/volar"
-    ]
-  },
   "compilerOptions": {
     "target": "es2016",
     "lib": [
