@@ -1,4 +1,4 @@
-<h1 align='center'>tempt/webpage</h1>
+<h1 align='center'>ui-vue-vite</h1>
 
 <br>
 
@@ -24,5 +24,5 @@
 ### quick start
 
 ```bash
-npx degit tofu-xx/tempt/webpage new-project
+npx degit templetor/ui-vue-vite new-project
 ```
