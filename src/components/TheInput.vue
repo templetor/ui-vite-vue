@@ -7,7 +7,7 @@ export let modelValue: string
     type="text"
     ::="modelValue"
     p="x4 y2"
-    bg-hex-8883
-    border="~ rounded gray200 dark:gray700"
+    bg="gray op20"
+    border="~ rounded gray7 dark:gray2"
     outline="none active:none">
 </template>
